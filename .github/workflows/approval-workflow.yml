@@ -1,1 +1,2 @@
-Team approval network
+name: Team approval network
+on: pull_request_review
