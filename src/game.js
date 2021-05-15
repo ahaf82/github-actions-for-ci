@@ -3,7 +3,7 @@ export default class Game {
     this.p1 = p1
     this.p2 = 'Nate'
 
-// Once you commit the changes, the tests will run again and should pass. I'll respond when the tests pass. If the tests don't pass, I'll provide some troubleshooting information.
+    // Once you commit the changes, the tests will run again and should pass. I'll respond when the tests pass. If the tests don't pass, I'll provide some troubleshooting information.
     this.board = [[null, null, null], [null, null, null], [null, null, null]]
     this.player = Math.random() < 0.5 ? this.p1 : this.p2
     this.sym = 'X'
